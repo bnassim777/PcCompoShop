@@ -13,118 +13,113 @@
 
 <body>
 
-<header class="sticky-lg-top">
-    <nav class="row m-0 navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid ">
-            <a class="navbar-brand" href="#">PcCompoShop<i class="bi bi-pc-display-horizontal"></i></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+    <header class="sticky">
+        <nav class="row m-0 navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#">PcCompoShop<i class="bi bi-pc-display-horizontal"></i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
 
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-primary" type="submit">Search</button>
-                </form>
-            </div>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                    class="bi bi-bag"></i>
-                Mon panier
-            </button>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-primary" type="submit">Search</button>
+                    </form>
+                </div>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                        class="bi bi-bag"></i>
+                    Mon panier
+                </button>
 
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Mon Panier</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <img src="./img/compo1.jpg" alt="" class="w-25">
-                            <p>x1 Carte Graphique</p>
-                            <img src="./image/HDD.jpg" alt="" class="w-25">
-                            <p>x1 Disque Dur </p>
-                            <img src="./img/ecran1.jpg" alt="" class="w-25">
-                            <p>x1 écran</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
-                            <button type="button" class="btn btn-primary">Commander</button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Mon Panier</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="./img/compo1.jpg" alt="" class="w-25">
+                                <p>x1 Carte Graphique</p>
+                                <img src="./image/HDD.jpg" alt="" class="w-25">
+                                <p>x1 Disque Dur </p>
+                                <img src="./img/ecran1.jpg" alt="" class="w-25">
+                                <p>x1 écran</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                                <a href="Produits.html" class="btn btn-primary">Commander</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
 
+        <div class="row container-fluid myclass text-white p-2 justify-content-evenly">
+            <div class="dropdown col-lg-2 col-8">
+                <button class="myclass2 btn  dropdown-toggle border border-0" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Tous nos produits
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Cartes graphiques</a></li>
+                    <li><a class="dropdown-item" href="#">Périphériques</a></li>
+                    <li><a class="dropdown-item" href="#">PC Portable</a></li>
+                    <li><a class="dropdown-item" href="#">Cartes mère</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Rupture de stock</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-8 p-1">
+                <a>Promotions<i class="bi bi-percent p-1"></i></a>
+            </div>
+            <div class="col-lg-2 col-8 p-1">
+                <a>Service client</a>
+            </div>
+            <div class="col-lg-2 col-8">
+                Nouveautés
+            </div>
+            <div class="col-lg-2 col-8">
+                Mon compte
+            </div>
 
 
-    <div class="row container-fluid myclass text-white p-2 justify-content-evenly">
-        <div class="dropdown col-lg-2 col-8">
-            <button class="myclass2 btn  dropdown-toggle border border-0" type="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Tous nos produits
-            </button>
-            <ul class="dropdown-menu dropdown-menu-dark">
-                <li><a class="dropdown-item" href="#">Cartes graphiques</a></li>
-                <li><a class="dropdown-item" href="#">Périphériques</a></li>
-                <li><a class="dropdown-item" href="#">PC Portable</a></li>
-                <li><a class="dropdown-item" href="#">Cartes mère</a></li>
-                <li>
-                    <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Rupture de stock</a></li>
-            </ul>
         </div>
-        <div class="col-lg-2 col-8 p-1">
-            <a>Promotions<i class="bi bi-percent p-1"></i></a>
-        </div>
-        <div class="col-lg-2 col-8 p-1">
-            <a>Service client</a>
-        </div>
-        <div class="col-lg-2 col-8">
-            Nouveautés
-        </div>
-        <div class="col-lg-2 col-8">
-         Mon compte
-        </div>
-
-
-    </div>
 
     </header>
 
     <section class="row m-0 justify-content-evenly">
-        <div class="shadow-lg mt-5 border border-danger col-lg-2"> 
-         <img class="img-fluid" src="image/Clavier.jpg" alt="">
-         <h2 class="text-center">Périphériques</h2>
+        <div class="shadow-lg mt-5 border border-danger col-lg-2">
+            <img class="img-fluid" src="image/Clavier.jpg" alt="">
+            <h2 class="text-center">Périphériques</h2>
         </div>
-        <div class="shadow-lg mt-5 border border-danger col-lg-2"> 
+        <div class="shadow-lg mt-5 border border-danger col-lg-2">
             <img class="img-fluid" src="image/Clavier.jpg" alt="">
             <h2 class="text-center">Périphériques</h2>
-           </div>
-           <div class="shadow-lg mt-5 border border-danger col-lg-2"> 
+        </div>
+        <div class="shadow-lg mt-5 border border-danger col-lg-2">
             <img class="img-fluid" src="image/Clavier.jpg" alt="">
             <h2 class="text-center">Périphériques</h2>
-           </div>
-           <div class="shadow-lg mt-5 border border-danger col-lg-2"> 
+        </div>
+        <div class="shadow-lg mt-5 border border-danger col-lg-2">
             <img class="img-fluid" src="image/Clavier.jpg" alt="">
             <h2 class="text-center">Périphériques</h2>
-           </div>
+        </div>
 
 
     </section>
 
 
-    
-
-
-    
 
 
 
@@ -135,8 +130,15 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
 </body>
 
