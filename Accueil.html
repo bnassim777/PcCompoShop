@@ -13,118 +13,141 @@
 
 <body>
 
-<header class="sticky-lg-top">
-    <nav class="row m-0 navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid ">
-            <a class="navbar-brand" href="#">PcCompoShop<i class="bi bi-pc-display-horizontal"></i></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+    <header class="sticky">
+        <nav class="row m-0 navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#">PcCompoShop<i class="bi bi-pc-display-horizontal"></i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
 
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-primary" type="submit">Search</button>
-                </form>
-            </div>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                    class="bi bi-bag"></i>
-                Mon panier
-            </button>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-primary" type="submit">Search</button>
+                    </form>
+                </div>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                        class="bi bi-bag"></i>
+                    Mon panier
+                </button>
 
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Mon Panier</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <img src="./img/compo1.jpg" alt="" class="w-25">
-                            <p>x1 Carte Graphique</p>
-                            <img src="./image/HDD.jpg" alt="" class="w-25">
-                            <p>x1 Disque Dur </p>
-                            <img src="./img/ecran1.jpg" alt="" class="w-25">
-                            <p>x1 écran</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
-                            <button type="button" class="btn btn-primary">Commander</button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Mon Panier</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="./img/compo1.jpg" alt="" class="w-25">
+                                <p>x1 Carte Graphique</p>
+                                <img src="./image/HDD.jpg" alt="" class="w-25">
+                                <p>x1 Disque Dur </p>
+                                <img src="./img/ecran1.jpg" alt="" class="w-25">
+                                <p>x1 écran</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                                <button type="button" class="btn btn-primary">Commander</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </nav>
+
+
+
+
+        <div class="row container-fluid myclass text-white p-2 justify-content-evenly">
+            <div class="col-lg-2 col-8">
+                <a href="Produits.html"><button class="text-white myclass2 btn border border-0" type="button">
+                        Accéder aux produits
+                    </button></a>
+            </div>
+            <div class="col-lg-2 col-8 p-1">
+                <a>Promotions<i class="bi bi-percent p-1"></i></a>
+            </div>
+            <div class="col-lg-2 col-8 p-1">
+                <a>Service client</a>
+            </div>
+            <div class="col-lg-2 col-8 p-1">
+                Nouveautés
+            </div>
+            <div class="col-lg-2 col-8 p-1">
+                Mon compte
+            </div>
         </div>
-    </nav>
-
-
-
-
-    <div class="row container-fluid myclass text-white p-2 justify-content-evenly">
-        <div class="dropdown col-lg-2 col-8">
-            <button class="myclass2 btn  dropdown-toggle border border-0" type="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Tous nos produits
-            </button>
-            <ul class="dropdown-menu dropdown-menu-dark">
-                <li><a class="dropdown-item" href="#">Cartes graphiques</a></li>
-                <li><a class="dropdown-item" href="#">Périphériques</a></li>
-                <li><a class="dropdown-item" href="#">PC Portable</a></li>
-                <li><a class="dropdown-item" href="#">Cartes mère</a></li>
-                <li>
-                    <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Rupture de stock</a></li>
-            </ul>
-        </div>
-        <div class="col-lg-2 col-8 p-1">
-            <a>Promotions<i class="bi bi-percent p-1"></i></a>
-        </div>
-        <div class="col-lg-2 col-8 p-1">
-            <a>Service client</a>
-        </div>
-        <div class="col-lg-2 col-8">
-            Nouveautés
-        </div>
-        <div class="col-lg-2 col-8">
-         Mon compte
-        </div>
-
-
-    </div>
-
     </header>
 
-    <section class="row m-0 justify-content-evenly">
-        <div class="shadow-lg mt-5 border border-danger col-lg-2"> 
-         <img class="img-fluid" src="image/Clavier.jpg" alt="">
-         <h2 class="text-center">Périphériques</h2>
+
+
+    <div class="container-fluid">
+        <div class="row m-0 col-lg-10 mx-auto myh mt-5 border border-0 myh ">
+
+            <img class="myimg img-fluid border border-0" src="image/craiyon_131219_RTX_4090-removebg-preview.png"
+                alt="">
+
         </div>
-        <div class="shadow-lg mt-5 border border-danger col-lg-2"> 
-            <img class="img-fluid" src="image/Clavier.jpg" alt="">
-            <h2 class="text-center">Périphériques</h2>
-           </div>
-           <div class="shadow-lg mt-5 border border-danger col-lg-2"> 
-            <img class="img-fluid" src="image/Clavier.jpg" alt="">
-            <h2 class="text-center">Périphériques</h2>
-           </div>
-           <div class="shadow-lg mt-5 border border-danger col-lg-2"> 
-            <img class="img-fluid" src="image/Clavier.jpg" alt="">
-            <h2 class="text-center">Périphériques</h2>
-           </div>
+    </div>
 
+    <h1 class="text-center mt-5 fw-bold">Nos meilleurs produits</h1>
 
+    <section class="row m-0 justify-content-evenly">
+        <div class="shadow-lg col-lg-4 col-10 border rounded border-0 p-4">
+
+            <h2 class="text-center fw-bold fs-3">Périphériques les plus vendus</h2>
+            <div class="text-center">
+                <img class="w-50" src="image/Clavier-removebg-preview.png" alt="Clavier">
+                <p class="fs-5 ">Avec sa conception ultra plate, sa protection contre les liquides, ses touches robustes
+                    qui résistent à 10 millions de frappes, ses pieds inclinables et résistants, ce clavier Logitech
+                    K120 est non seulement élégant, mais aussi durable.</p>
+                <img class="w-50" src="image/Souris-removebg-preview.png" alt="Souris">
+                <p class="fs-5">La souris Logitech B100 Optical USB Mouse est un modèle simple, robuste et efficace.
+                    Grâce à sa forme confortable, elle vous offrira un excellent niveau de confort pour toutes vos
+                    applications de bureautique. La forme ambidextre convient aux droitiers comme aux gauchers. </p>
+                <img class="w-50" src="image/Ecran-removebg-preview.png" alt="Ecran">
+                <p class="fs-5">L'écran PC Fox Spirit FH245 est une aubaine pour les joueurs grâce à sa dalle 144 Hz
+                    Full HD compatible FreeSync, son temps de réponse ultra-court de 1ms et sa connectique complète
+                    (HDMI 1.4, HDMI 2.0, DisplayPort 1.2 et USB-C).</p>
+            </div>
+        </div>
+
+        <div class="shadow-lg col-lg-4 col-10 border rounded border-0 p-4">
+            <h2 class="text-center fw-bold fs-3">Composants PC les plus vendus</h2>
+            <div class="text-center">
+                <img class="w-50" src="image/Cartemere-removebg-preview.png" alt="Carte mère">
+                <p class="fs-5 ">La carte mère ASRock B550 Extreme4 est conçue pour accueillir les processeurs AMD Ryzen
+                    3ème génération sur socket AM4. Elle permettra l'assemblage d'une configuration puissante et
+                    polyvalente capable de s'acquitter de toutes les tâches.</p>
+                <img class="w-50" src="image/CG-removebg-preview.png" alt="Carte graphique">
+                <p class="fs-5">La carte graphique ASRock AMD Radeon RX 6700 XT Challenger D 12GB est une carte
+                    graphique gaming qui est animée par l'architecture RDNA 2 destinée aux gamers exigeants. Elle est la
+                    carte graphique idéale pour une utilisation en 1440p avec des fréquences d'images ultra-élevées.</p>
+                <img class="w-50" src="image/LD0005982300-removebg-preview.png" alt="Processeur">
+                <p class="fs-5">Des jeux fluides et un PC qui ne ralentit pas. En offrant encore plus de puissance pour
+                    les programmes exigeants et les jeux et plus de coeurs pour les tâches de fond, les processeurs
+                    Intel Core de 13ème génération vous permettent de faire encore plus de choses et encore plus
+                    rapidement.</p>
+            </div>
+        </div>
+
+        <a class="btn btn-primary m-3 p-4 col-lg-4 col-10 fw-bold fs-1" href="Produits.html" role="button">Je découvre ces produits !!</a>
     </section>
 
 
-    
 
 
-    
+
+
+
+
 
 
 
