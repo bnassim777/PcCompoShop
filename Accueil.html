@@ -13,7 +13,7 @@
 
 <body>
 
-    <header>
+    <header class="sticky-lg-top">
         <nav class="row m-0 navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid ">
                 <a class="navbar-brand" href="#">PcCompoShop<i class="bi bi-pc-display-horizontal"></i></a>
@@ -34,33 +34,9 @@
                     Mon panier
                 </button>
 
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Mon Panier</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <img src="./img/compo1.jpg" alt="" class="w-25">
-                                <p>x1 Carte Graphique</p>
-                                <img src="./image/HDD.jpg" alt="" class="w-25">
-                                <p>x1 Disque Dur </p>
-                                <img src="./img/ecran1.jpg" alt="" class="w-25">
-                                <p>x1 écran</p>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
-                                <button type="button" class="btn btn-primary">Commander</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </nav>
+
 
 
 
@@ -85,13 +61,35 @@
             </div>
         </div>
     </header>
-
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Mon Panier</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="./img/compo1.jpg" alt="" class="w-25">
+                    <p>x1 Carte Graphique</p>
+                    <img src="./image/HDD-removebg-preview.png" alt="" class="w-25">
+                    <p>x1 Disque Dur </p>
+                    <img src="./img/ecran1.jpg" alt="" class="w-25">
+                    <p>x1 écran</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                    <a href="commande.html" class="btn btn-primary">Commander</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <div class="container-fluid">
-        <div class="row m-0 col-lg-10 mx-auto myh mt-5 border border-0 myh ">
+        <div class="row m-0 col-lg-10 mx-auto myh mt-5 border border-0 myh">
 
-            <img class="myimg img-fluid border border-0" src="image/craiyon_131219_RTX_4090-removebg-preview.png"
+            <img class="myimg border border-0 img-responsive" src="image/craiyon_131219_RTX_4090-removebg-preview.png"
                 alt="">
 
         </div>
