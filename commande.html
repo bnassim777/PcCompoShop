@@ -98,9 +98,10 @@
     </div>
 
     <!-- Container Gauche  -->
-    <div class="container-fluid row b mt-5 p-0 mx-0">
-        <div class="card col-7 ms-5 p-1  row table-responsive-lg">
-            <table class="table ">
+<div class="container-lg">
+    <div class=" row mt-5 p-0 mx-0 border border-dark ">
+        <div class="card ms-5 p-1 border-danger col-lg-7 col-sm-10">
+            <table class=" ">
                 <thead>
                     <tr>
                         <th scope="col">Produit</th>
@@ -112,55 +113,58 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <th scope="row col-5"><img src="./image/HDD-removebg-preview.png" alt="+" width="100"
-                                height="100" class="shadow p-3 mb-5 bg-body-tertiary rounded"></th>
-                        <td>Disque dur.</td>
+                        <th scope="row col-5"><img src="./img/compo1.jpg" alt="+" width="100" height="100" class="shadow p-3 mb-5 bg-body-tertiary rounded"></th>
+                        <td>Carte Graphique.</td>
+                        <td><input class="drop-down col-2" placeholder="1" /></select> </td>
+                        <td>449.90€</td>
+                        <td><button ><i class="bi bi-trash3"></i></button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row col-5"><img src="./image/HDD-removebg-preview.png" alt="+" width="100" height="100" class="shadow p-3 mb-5 bg-body-tertiary rounded"></th>
+                        <td>Disque Dur.</td>
                         <td><input class="drop-down col-2" placeholder="1" /></select> </td>
                         <td>119.99€</td>
-                        <td><button><i class="bi bi-trash3"></i></button></td>
+                        <td><button ><i class="bi bi-trash3"></i></button></td>
                     </tr>
                     <tr>
-                        <th scope="row col-5"><img src="./img/compo1.jpg" alt="+" width="100" height="100"
-                                class="shadow p-3 mb-5 bg-body-tertiary rounded"></th>
-                        <td>Carte Graphique.</td>
+                        <th scope="row col-5"><img src="./img/ecran1.jpg" alt="+" width="100" height="100" class="shadow p-3 mb-5 bg-body-tertiary rounded" ></th>
+                        <td>Ecran.</td>
                         <td><input class="drop-down col-2" placeholder="1" /> </td>
-                        <td class="col-3">449.99€</td>
-                        <td class="col-1"><button><i class="bi bi-trash3"></i></button></td>
-                    </tr>
-                    <tr>
-                        <th scope="row col-5"><img src="./img/ecran1.jpg" alt="+" width="100" height="100"
-                                class="shadow p-3 mb-5 bg-body-tertiary rounded"></th>
-                        <td>Ecran gaming.</td>
-                        <td><input class="drop-down col-2" placeholder="1" /> </td>
-                        <td class="col-3">229.99€</td>
-                        <td class="col-1"><button><i class="bi bi-trash3"></i></button></td>
+                        <td class="col-3">220.90€</td>
+                        <td class="col-1"><button ><i class="bi bi-trash3"></i></button></td>
                     </tr>
                 </tbody>
             </table>
         </div>
-
+   
         <!-- container droit TOTAL PANIER  -->
-        <div class="card shadow p-1 col-lg-4 col-10 p-1 ms-5 shadow p-3 mb-5 bg-body-tertiary rounded row ">
-            <div class="fs-5 ms-2 fw-bold mb-4">Total panier</div>
-            <P style="color: gray" class="fs-2 ms-2 fw-bold">Sous-total<span class="size fw-bold border"> 789.98€</span></p>
+        
+        <div class=" col-lg-4 col-sm-12 border border-success shadow p-1 ms-5 shadow p-3 mb-5 bg-body-tertiary rounded align-self-right ">
+           
+            <div class="fs-5 ms-2 fw-bold mb-4 border ">Total panier</div>
+
+          <div class="">
+            <P style="color: gray" class="ms-2 fw-bold">Sous-total<span class="size fw-bold"> 2159,89$</span></p>
             <hr style="height: none; border: none; border-top: 1px dashed grey;">
-            <p style="color: gray" class="ms-2 fs-6 mt-3 fw-bold">Total <span class="size1 fw-bold border"> 789.98€ </span></P>
+            <p style="color: gray" class="ms-2 fs-6 mt-4 fw-bold">Total <span class="size1 fw-bold"> 2159,89$ </span>
+            </P>
+        </div>
+   
             <button class="btn btn-primary my-auto mg">Valider la commande </button>
         </div>
-
+    </div>
     </div>
 
     <!-- CODE PROMO -->
-    <form>
-        <div class=" container-fluid row p-5 g-2 justify-content-center">
-            <div class="col-3">
-                <input type="text" class="form-control col-lg-3 col-8 p-1   " placeholder="code promo">
-            </div>
-            <div class="col-lg-2 col-8 p-1">
-                <button type="submit" class="btn btn-primary mb-3">Appliquer le code promo</button>
-            </div>
+    <div class=" container-fluid row p-5 g-2 justify-content-evenly">
+        <div class="col-3">
+            <input type="text" class="form-control " placeholder="code promo">
         </div>
-    </form>
+        <div class="col-4">
+            <button type="submit" class="btn btn-primary mb-3">Appliquer le code promo</button>
+        </div>
+    </div>
+
 
 </body>
 
