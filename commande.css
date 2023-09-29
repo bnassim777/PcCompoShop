@@ -8,3 +8,10 @@
     margin-left: 16.3rem;
 }
 
+@media only screen and (max-width: 576px) {
+    .buttonHidden{
+        display: none;
+    }
+
+}
+
