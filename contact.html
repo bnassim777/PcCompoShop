@@ -64,8 +64,8 @@
     <div class="row container-fluid myclass text-white p-2 justify-content-evenly">
         <div class="dropdown col-lg-2 col-8">
             <a href="Produits.html"><button class="text-white myclass2 btn border border-0" type="button">
-                Accéder aux produits
-            </button></a>
+                    Accéder aux produits
+                </button></a>
         </div>
         <div class="col-lg-2 col-8 p-1">
             <a>Promotions<i class="bi bi-percent p-1"></i></a>
@@ -80,66 +80,96 @@
             <a href="MonCompte.html" class="text-decoration-none"> mon compte </a>
         </div>
     </div>
-         <div>
+    <div>
         <h1 class=" text-center">PcCompoShop</h1>
-        </div>
-        <div class=" bg-primary border-bottom border-top  mb-3 mt-4 text-align-center" >
-            <h1 class="fs-4 text-center p-3">Nous Contacter par Email</h1>
-        </div>
+    </div>
+    <div class=" bg-primary border-bottom border-top  mb-3 mt-4 text-align-center">
+        <h1 class="fs-4 text-center p-3">Nous Contacter par Email</h1>
+    </div>
     <div class="container">
-        
-        <div><small>Les champs munit d'un astérisque <i class="text-danger">*</i> sont requis</p></small>
 
-        <legend class="m-4 p-0 ms-0">Vos informations</legend>
+        <div class="container"><small>Les champs munit d'un astérisque <i class="text-danger">*</i> sont requis</p>
+                </small>
+            <!-- formulaire -->
 
-        <div class="mb-3 row ">
-            <div class="col-6 ">
-                <label for="nom" class="form-label">Votre nom <i class="text-danger">*</i></label>
-                <input type="nom" class="form-control" id="exampleFormControlInput1" placeholder="Nom">
-            </div>
-            <div class="col-6 ">
-                <label for="nom" class="form-label">Votre prénom <i class="text-danger">*</i></label>
-                <input type="nom" class="form-control" id="exampleFormControlInput1" placeholder="Prénom">
-            </div>
-        </div>
-        <div class="mb-3 row ">
-            <div class="col-6">
-                <label for="exampleFormControlInput1" class="form-label">Adresse Email<i
-                        class="text-danger">*</i></label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Adresse Email">
-            </div>
-            <div class="col-6">
-                <label for="exampleFormControlInput1" class="form-label">Confirmer Votre Email<i
-                        class="text-danger">*</i></label>
-                <input type="email" class="form-control" id="exampleFormControlInput1"
-                    placeholder="Confirmer Votre Email">
-
-
-            </div>
-            <div>
-                <div class="mt-3 ">
-                    <label for="nom" class="form-label">Votre téléphone<i class="text-danger">*</i></label>
-                    <input type="nom" class="form-control" id="exampleFormControlInput1" placeholder="téléphone">
-                    <div class="mt-3 ">
-                        <label for="nom" class="form-label">Objet<i class="text-danger">*</i></label>
-                        <input type="nom" class="form-control" id="exampleFormControlInput1" placeholder="Objet">
-                
-                    <div class="mb-3 ">
-                        <label for="exampleFormControlTextarea1" class="form-label">Votre message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">message</textarea>
-                      </div>
+            <h3 class="m-4 p-0 ms-0">Vos informations</h3>
+            <!-- nom prenom -->
+            <div class="mb-3 container-lg row ">
+                <div class="col-lg-6 col-sm-12 ">
+                    <label for="nom" class="form-label">Votre nom <i class="text-danger">*</i></label>
+                    <input type="nom" class="form-control shadow-sm mb-3 bg-body-tertiary rounded"
+                        id="exampleFormControlInput1" placeholder="name">
+                </div>
+                <div class="col-lg-6 col-sm-12 ">
+                    <label for="nom" class="form-label">Votre prénom <i class="text-danger">*</i></label>
+                    <input type="nom" class="form-control shadow-sm mb-3 bg-body-tertiary rounded"
+                        id="exampleFormControlInput1" placeholder="name">
                 </div>
             </div>
+            <!-- adresse mail  confirmer email telephone -->
+            <div class="mb-3 container-lg row ">
+                <div class="col-lg-6 col-sm-12">
+                    <label for="exampleFormControlInput1" class="form-label ">Adresse Email<i
+                            class="text-danger">*</i></label>
+                    <input type="email" class="form-control shadow-sm mb-3 bg-body-tertiary rounded"
+                        id="exampleFormControlInput1" placeholder="Adresse Email">
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <label for="exampleFormControlInput1" class="form-label ">Confirmer Votre Email<i
+                            class="text-danger">*</i></label>
+                    <input type="email" class="form-control shadow-sm mb-3 bg-body-tertiary rounded"
+                        id="exampleFormControlInput1" placeholder="Confirmer Votre Email">
 
-        </div>
-     </div>
-    <div class="d-grid gap-2 col-6 mx-auto my-3">
-        <button class="btn btn-primary" type="button">Envoyer</button>
-    </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+
+                </div>
+                <!-- telephone  -->
+                <div>
+                    <div class="mt-3 ">
+                        <label for="nom" class="form-label ">Votre téléphone</label>
+                        <input type="nom" class="form-control shadow-sm mb-5 bg-body-tertiary rounded"
+                            id="exampleFormControlInput1" placeholder="téléphone">
+                        <div class="mt-4 ">
+                            <!-- produit -->
+                            <h3 class="mt-4 mb-4">Votre produit</h3>
+                            <!-- précision de la demande -->
+                            <div class=" mb-3">
+                                <div class="form-floating">
+                                    <select class="form-select shadow-sm mb-5 bg-body-tertiary rounded"
+                                        id="floatingSelectGrid">
+                                        <option selected>Choisir</option>
+                                        <option value="1">une commande</option>
+                                        <option value="2">une réparation</option>
+                                        <option value="3">autre</option>
+                                    </select>
+                                    <label for="floatingSelectGrid">Votre demande concerne<i class="text-danger">*</i>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <!-- objet -->
+
+                            <div class="">
+                                <label for="nom" class="form-label ">Objet<i class="text-danger">*</i></label>
+                                <input type="nom" class="form-control shadow-sm mb-3 bg-body-tertiary rounded "
+                                    id="exampleFormControlInput1" placeholder="Objet">
+                            </div>
+                            <div class="mb-3 ">
+                                <label for="exampleFormControlTextarea1" class="form-label ">Votre message</label>
+                                <textarea class="form-control shadow-sm mb-3 bg-body-tertiary rounded"
+                                    id="exampleFormControlTextarea1" rows="3">message</textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto my-3">
+                <button class="btn btn-primary" type="button">Envoyer</button>
+            </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+                crossorigin="anonymous"></script>
 </body>
 
 </html>
